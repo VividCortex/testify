@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
+	"github.com/VividCortex/testify/assert"
+	"github.com/VividCortex/testify/require"
 )
 
 var allTestsFilter = func(_, _ string) (bool, error) { return true, nil }
